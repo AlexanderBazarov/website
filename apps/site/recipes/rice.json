@@ -1,0 +1,186 @@
+{
+  "title": {
+    "ru": "Острый рис с курицей",
+    "en": "Spicy rice with chicken"
+  },
+  "date": "2024-01-05",
+  "tag": "#рис",
+  "icon": "utensils",
+  "desc": {
+    "ru": "Одна сковорода, много перца.",
+    "en": "One pan, plenty of pepper."
+  },
+  "body": [
+    {
+      "type": "columns",
+      "template": "minmax(0, 1.5fr) minmax(0, 1fr)",
+      "items": [
+        [
+          {
+            "type": "heading",
+            "text": {
+              "ru": "Острый рис с курицей",
+              "en": "Spicy rice with chicken"
+            },
+            "level": 1
+          },
+          {
+            "type": "badges",
+            "items": [
+              {
+                "label": {
+                  "ru": "35 мин",
+                  "en": "35 min"
+                },
+                "tone": "green"
+              },
+              {
+                "label": {
+                  "ru": "3 порции",
+                  "en": "3 servings"
+                },
+                "tone": "green"
+              },
+              {
+                "label": {
+                  "ru": "средне",
+                  "en": "medium"
+                },
+                "tone": "yellow"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "quote",
+            "text": {
+              "ru": "Одна сковорода — меньше посуды, больше вкуса.",
+              "en": "One pan — fewer dishes, more flavour."
+            },
+            "author": "moonlight_dev"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "panels",
+      "cols": 2,
+      "items": [
+        {
+          "title": {
+            "ru": "ингредиенты",
+            "en": "ingredients"
+          },
+          "icon": "utensils",
+          "flush": true,
+          "fields": [
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "label": {
+                    "ru": "рис",
+                    "en": "rice"
+                  },
+                  "note": "250 г",
+                  "done": true
+                },
+                {
+                  "label": {
+                    "ru": "куриное бедро",
+                    "en": "chicken thigh"
+                  },
+                  "note": "400 г",
+                  "done": true
+                },
+                {
+                  "label": {
+                    "ru": "перец чили",
+                    "en": "chilli"
+                  },
+                  "note": {
+                    "ru": "1 шт",
+                    "en": "1 pc"
+                  },
+                  "done": true
+                },
+                {
+                  "label": {
+                    "ru": "лук",
+                    "en": "onion"
+                  },
+                  "note": {
+                    "ru": "1 шт",
+                    "en": "1 pc"
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "соевый соус",
+                    "en": "soy sauce"
+                  },
+                  "note": "3 ст. л."
+                },
+                {
+                  "label": {
+                    "ru": "яйцо",
+                    "en": "egg"
+                  },
+                  "note": {
+                    "ru": "2 шт",
+                    "en": "2 pcs"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "приготовление",
+            "en": "method"
+          },
+          "icon": "pot",
+          "fields": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": {
+                    "ru": "Обжарь курицу",
+                    "en": "Sear the chicken"
+                  },
+                  "body": {
+                    "ru": "Крупные куски на сильном огне до корочки, вынь из сковороды.",
+                    "en": "Big pieces, high heat, until browned; take them out of the pan."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Лук, чили, рис",
+                    "en": "Onion, chilli, rice"
+                  },
+                  "body": {
+                    "ru": "Обжарь лук с чили, добавь сухой рис и прогрей минуту — так он не слипнется.",
+                    "en": "Fry onion with chilli, add dry rice and toast for a minute so it stays loose."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Собери блюдо",
+                    "en": "Bring it together"
+                  },
+                  "body": {
+                    "ru": "Верни курицу, влей воду и соевый соус, готовь под крышкой 15 минут, вбей яйцо в конце.",
+                    "en": "Return the chicken, add water and soy sauce, cover for 15 minutes, stir in the egg at the end."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

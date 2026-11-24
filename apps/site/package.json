@@ -1,0 +1,20 @@
+{
+  "name": "@mystyte/site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@mystyte/core": "*",
+    "@mystyte/tui": "*",
+    "@types/styled-components": "^5.1.36",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.6.0",
+    "uuid": "^14.0.3"
+  }
+}
